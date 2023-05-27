@@ -34,3 +34,12 @@ if z<7 :
     print("7보다 작은 수")
 else :
     print("7 이상의 수")
+
+# else if 의 경우, elif 키워드를 사용.
+
+if z<7 :
+    print("7보다 작은 수")
+elif z == 7 :
+    print("7이다.")
+else :
+    print("7보다 큰 수")

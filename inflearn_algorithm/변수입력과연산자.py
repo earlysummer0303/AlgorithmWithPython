@@ -1,6 +1,6 @@
 #2. 변수 입력과 연산자
 
-'''
+
 # 파이썬에서는 input() 함수를사용해서 input을 받는다.
 
 
@@ -36,9 +36,6 @@ print("몫 : ", a//b) ##⭐️
 print("나머지 : ", a%b)
 print("거듭제곱 : ",a**b) ## a를 b번 곱한 값 (즉 a의 b제곱)
 
-'''
 
-# 예제 풀기!
-print("두개의 변수를 띄어쓰기 없이 입력해주세요")
-a,b = map(int,input().split(separator = ""))
-print(a+b)
+
+

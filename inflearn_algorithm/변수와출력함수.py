@@ -33,7 +33,7 @@ a = 12.12
 print(type(a)) # float
 a = 'student' # 문자열 사용할때 작은따옴표('') 사용. -> 쌍따옴표도 가능
 b = 'a'
-print(type(a),type(b)) # a,b 둘다 str 타입
+print(type(a),type(b)) # a,b 둘다 str 타입 -> string 아니고, str
 
 # 프린트 함수의 seperator 적용
 print(a,b,sep=',')
